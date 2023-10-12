@@ -52,6 +52,12 @@ class Frame(FrameTemplate):
     """This method is called when the user presses Enter in this text box"""
     print('hello')
 
+  def drop_down_1_change(self, **event_args):
+    """This method is called when an item is selected"""
+    arr = anvil.server.call("gainStudentInfo")
+    print(arr)
+ 
+
 
 
 
