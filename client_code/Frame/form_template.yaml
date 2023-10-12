@@ -52,7 +52,7 @@ components:
   name: image_1
   layout_properties: {slot: logo}
 - type: ColumnPanel
-  properties: {}
+  properties: {col_widths: '{}'}
   name: content_panel
   layout_properties: {slot: default}
   components:
