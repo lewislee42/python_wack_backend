@@ -3,10 +3,10 @@ container:
   properties: {col_widths: '{}'}
 components:
 - type: Label
-  properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
-    visible: true, text: Bug Busters, font_size: null, font: '', spacing_above: small,
-    icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
-    underline: false, icon: ''}
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:On
+      Secondary Container', visible: true, text: Bug Busters, font_size: 24, font: '''Peralta''',
+    spacing_above: small, icon_align: left, spacing_below: none, italic: false, background: 'theme:Secondary
+      Container', bold: true, underline: false, icon: ''}
   name: label_1
   layout_properties: {grid_position: 'FILIHW,DESGLB PCYFIY,YZLBPF'}
 - type: FlowPanel
@@ -16,15 +16,15 @@ components:
   components:
   - type: RepeatingPanel
     properties: {role: null, tooltip: '', border: '', foreground: '', items: null,
-      visible: true, spacing_above: small, spacing_below: small, item_template: Dashboard.Cadet,
+      visible: true, spacing_above: none, spacing_below: small, item_template: Dashboard.Cadet,
       background: ''}
     name: repeating_panel_1
     layout_properties: {grid_position: 'JBBGCE,MRPWQV', width: 964.9167}
 - type: Label
-  properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
-    visible: true, text: Unix Unicorn, font_size: null, font: '', spacing_above: small,
-    icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
-    underline: false, icon: ''}
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:On
+      Secondary Container', visible: true, text: Unix Unicorn, font_size: 24, font: '''Abril
+      Fatface''', spacing_above: large, icon_align: left, spacing_below: small, italic: false,
+    background: 'theme:Secondary Container', bold: true, underline: false, icon: ''}
   name: label_2
   layout_properties: {grid_position: 'FILIHW,EFJKRV FBYDHA,QBERMA'}
 - type: RepeatingPanel
@@ -33,27 +33,29 @@ components:
   name: repeating_panel_2
   layout_properties: {grid_position: 'FILIHW,EFJKRV ATAVIZ,XYPQDO'}
 - type: Label
-  properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
-    visible: true, text: Segmentation Slayers, font_size: null, font: '', spacing_above: small,
-    icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
-    underline: false, icon: ''}
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:On
+      Secondary Container', visible: true, text: Segmentation Slayers, font_size: 24,
+    font: '''Abril Fatface''', spacing_above: none, icon_align: left, spacing_below: small,
+    italic: false, background: 'theme:Secondary Container', bold: true, underline: false,
+    icon: ''}
   name: label_3
   layout_properties: {grid_position: 'FILIHW,EFNDAT ZFENWD,BAJZMC'}
 - type: RepeatingPanel
   properties: {role: null, tooltip: '', border: '', foreground: '', items: null, visible: true,
-    spacing_above: small, spacing_below: small, item_template: Dashboard.Cadet, background: ''}
+    spacing_above: none, spacing_below: none, item_template: Dashboard.Cadet, background: ''}
   name: repeating_panel_3
   layout_properties: {grid_position: 'FILIHW,EFNDAT FXHETS,THYKEQ'}
 - type: Label
-  properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
-    visible: true, text: Kernel Kamikaze, font_size: null, font: '', spacing_above: small,
-    icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
-    underline: false, icon: ''}
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:On
+      Secondary Container', visible: true, text: Kernel Kamikaze, font_size: 24, font: '''Abril
+      Fatface''', spacing_above: medium, icon_align: left, spacing_below: medium,
+    italic: false, background: 'theme:Secondary Container', bold: true, underline: false,
+    icon: ''}
   name: label_4
   layout_properties: {grid_position: 'FILIHW,TAUVGV QVIHHL,YDGKLY'}
 - type: RepeatingPanel
   properties: {role: null, tooltip: '', border: '', foreground: '', items: null, visible: true,
-    spacing_above: small, spacing_below: small, item_template: Dashboard.Cadet, background: ''}
+    spacing_above: large, spacing_below: none, item_template: Dashboard.Cadet, background: ''}
   name: repeating_panel_4
   layout_properties: {grid_position: 'FILIHW,TAUVGV UDSFNE,LOSQYN'}
 is_package: true

@@ -51,6 +51,22 @@ body {
   padding-bottom: 0;
 }
 
+.anvil-role-displayname {
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: transparent;
+}
+
+.anvil-role-login {
+  margin-top: -12px;
+  margin-bottom: 42px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: transparent;
+}
+
 a {
   color: %color:Primary%;
 }
