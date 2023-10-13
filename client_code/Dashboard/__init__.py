@@ -8,7 +8,7 @@ class Dashboard(DashboardTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
-    self.repeating_panel_1.items = anvil.server.call('returnStudentJson')
+    self.repeating_panel_1.items = anvil.server.call('getStudentObject')
     self.repeating_panel_1.item_template = Cadet
     
 
