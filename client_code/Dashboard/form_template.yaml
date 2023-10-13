@@ -1,0 +1,10 @@
+container:
+  type: ColumnPanel
+  properties: {col_widths: '{}'}
+components:
+- type: RepeatingPanel
+  properties: {role: null, tooltip: '', border: '', foreground: '', items: null, visible: true,
+    spacing_above: small, spacing_below: small, item_template: Dashboard.Cadet, background: ''}
+  name: repeating_panel_1
+  layout_properties: {grid_position: 'JBBGCE,MRPWQV'}
+is_package: true
