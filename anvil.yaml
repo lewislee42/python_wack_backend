@@ -1,5 +1,9 @@
 correct_dependency_ids: {}
-dependencies: []
+dependencies:
+- dep_id: dep_jilqcxocbrmk0n
+  version: {dev: false}
+  resolution_hints: {app_id: 6FOHUOYA5OROK2CI, name: Clone of Horizontal Repeating Panel,
+    package_name: MaterialDesign147}
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
