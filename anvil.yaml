@@ -9,9 +9,9 @@ services:
     confirm_email: false, use_google: false}
   server_config: {user_table: users}
 startup: {type: form, module: Frame}
-package_name: Dashboard_Template_A
+package_name: WH4CKY_TWO
 allow_embedding: false
-name: Dashboard Template A
+name: WH4CKY-TWO
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null, preview_v3: true}
 startup_form: null
