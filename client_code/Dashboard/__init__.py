@@ -9,7 +9,14 @@ class Dashboard(DashboardTemplate):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
     self.repeating_panel_1.item_template = Cadet
-    self.repeating_panel_1.items = anvil.server.call('getStudentObject')
+    self.repeating_panel_2.item_template = Cadet
+    self.repeating_panel_3.item_template = Cadet
+    self.repeating_panel_4.item_template = Cadet
+    co_dat = anvil.server.call('getStudentObject')
+    self.repeating_panel_1.items = co_dat[0]
+    self.repeating_panel_2.items = co_dat[1]
+    self.repeating_panel_3.items = co_dat[2]
+    self.repeating_panel_4.items = co_dat[3]
     
 
     # Any code you write here will run before the form opens.
