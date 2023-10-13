@@ -9,11 +9,12 @@ services:
     confirm_email: false, use_google: false}
   server_config: {user_table: users}
 startup: {type: form, module: Frame}
-package_name: Dashboard_Template_A
+package_name: W4CKY_TWO
 allow_embedding: false
-name: Dashboard Template A
+name: W4CKY-TWO
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null, preview_v3: true}
+metadata: {title: W4CKY-TWO, description: A wacky dashboard of 42 Student data}
 startup_form: null
 native_deps: {head_html: '<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;600&family=Roboto+Condensed:wght@300;400;700&display=swap"
     rel="stylesheet" rel="preload" as="font" crossorigin="anonymous">'}
