@@ -1,7 +1,7 @@
 is_package: true
 container:
   type: HtmlTemplate
-  properties: {html: '@theme:standard-page.html'}
+  properties: {html: '', visible: true}
   event_bindings: {}
 components:
 - type: ColumnPanel
@@ -10,7 +10,7 @@ components:
   layout_properties: {slot: default}
   components:
   - name: text_box_1
-    properties: {placeholder: Enter you bitches name, enabled: true}
+    properties: {placeholder: Enter Intra id, enabled: true}
     type: TextBox
     layout_properties: {grid_position: 'VJDZZY,KRELPB'}
     event_bindings: {pressed_enter: text_box_1_pressed_enter}
