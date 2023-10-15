@@ -36,5 +36,3 @@ class Dashboard(DashboardTemplate):
   def button_4_click(self, **event_args):
     """This method is called when the button is clicked"""
     self.repeating_panel_3.visible = False if self.repeating_panel_3.visible else True
-
-
