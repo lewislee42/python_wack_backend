@@ -51,11 +51,16 @@ body {
   padding-bottom: 0;
 }
 
+.anvil-role-flexname {
+  display: flex;
+   justify-content: center;
+}
+
 .anvil-role-displayname {
-  margin-top: 0;
-  margin-bottom: 0px;
-  padding-top: 0;
-  padding-bottom: 0;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  spacing: 0;
   background-color: transparent;
 }
 
@@ -67,22 +72,35 @@ body {
   background-color: transparent;
 }
 
+.anvil-role-hiddenlink {
+  display: inline-block;
+  width: 44px;
+  margin: 0;
+  padding: 0;
+  spacing: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 a {
   margin: 0;
   padding: 0;
+  spacing: 0;
   color: %color:Background%;
 }
 
 a:hover:not(disabled) {
   margin: 0;
   padding: 0;
+  spacing: 0;
   color: %color:Background%;
 }
 
 a:active:not(disabled), a:focus:not(disabled){
   margin: 0;
   padding: 0;
-  opacity: %color:Bakcground%;
+  spacing: 0;
+  opacity: %color:Background%;
 }
 
 

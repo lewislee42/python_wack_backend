@@ -8,8 +8,10 @@ class Cadet(CadetTemplate):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
     self.label_1.text = self.item['displayname']
-    self.link_1.text = self.item['displayname']
+    self.link_1.text = 'INTRA'
     self.link_1.url = 'https://profile.intra.42.fr/users/' + self.item['login']
+    self.link_2.text = 'INTRA'
+    self.link_2.url = 'https://profile.intra.42.fr/users/' + self.item['login']
     self.label_2.text = self.item['login']
     student_image = self.item['image']['versions']['small']
     if student_image is None:

@@ -22,7 +22,8 @@ roles:
   components: [Label, Link]
 - {name: displayname}
 - {name: login}
-- {name: buttonhover}
+- {name: hiddenlink}
+- {name: flexname}
 color_scheme:
   preset_groups:
   - name: Colour Scheme
