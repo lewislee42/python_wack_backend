@@ -1,4 +1,4 @@
-from ._anvil_designer import FrameTemplate
+from ._anvil_designer import GoFrameTemplate
 from anvil import *
 import anvil.server
 import anvil.users
@@ -9,7 +9,7 @@ from ..Reports import Reports
 from ..Sales import Sales
 
 #This is your startup form. It has a sidebar with navigation links and a content panel where page content will be added.
-class Frame(FrameTemplate):
+class GoFrame(GoFrameTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)

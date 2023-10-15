@@ -24,6 +24,7 @@ roles:
 - {name: login}
 - {name: hiddenlink}
 - {name: flexname}
+- {name: hiddenbtn}
 color_scheme:
   preset_groups:
   - name: Colour Scheme

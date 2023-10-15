@@ -86,6 +86,23 @@ body {
   color: %color:Background%;
 }
 
+.anvil-role-hiddenbtn {
+  background-color: %color:Secondary Container%;
+  color: %color:Secondary Container%;
+  font-family: 'Comic Sans MS';
+  text-transform: uppercase;
+}
+
+.anvil-role-hiddenbtn:hover {
+  background-color: %color:Secondary Container%;
+  color: #66C7D0;
+}
+
+.anvil-role-hiddenbtn:active {
+  background-color: %color:Secondary Container%;
+  color: %color:Secondary Container%;
+}
+
 a {
   margin: 0;
   padding: 0;
