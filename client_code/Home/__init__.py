@@ -11,6 +11,7 @@ class Home(HomeTemplate):
     self.init_components(**properties)
     self.column_panel_1.add_component(Dashboard())
     self.view = True
+    self.button_go.foreground = '#FFE95B'
 
     # Any code you write here will run before the form opens.
 
@@ -23,4 +24,5 @@ class Home(HomeTemplate):
     else:
       self.column_panel_1.add_component(Dashboard())
       self.view = True
-
+    self.button_go.foreground = '#FFE95B'
+    self.button_go.background = '#FFE95B'

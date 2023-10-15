@@ -86,7 +86,7 @@ body {
   color: %color:Background%;
 }
 
-.anvil-role-hiddenbtn {
+.anvil-role-hiddenbtn, .anvil-role-hiddenbtn:visited {
   background-color: %color:Secondary Container%;
   color: %color:Secondary Container%;
   font-family: 'Comic Sans MS';
