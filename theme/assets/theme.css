@@ -82,6 +82,10 @@ body {
   white-space: nowrap;
 }
 
+.anvil-role-hiddenlink, .anvil-role-hiddenlink:link, .anvil-role-hiddenlink:visited, .anvil-role-hiddenlink:hover, .anvil-role-hiddenlink:active {
+  color: %color:Background%;
+}
+
 a {
   margin: 0;
   padding: 0;
@@ -102,8 +106,6 @@ a:active:not(disabled), a:focus:not(disabled){
   spacing: 0;
   opacity: %color:Background%;
 }
-
-
 
 /* Text boxes and areas */
 

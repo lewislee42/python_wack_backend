@@ -24,7 +24,7 @@ components:
       icon_align: left, spacing_below: none, italic: false, background: '', bold: false,
       underline: false, icon: ''}
     name: label_1
-    layout_properties: {grid_position: ',JHNKAR'}
+    layout_properties: {grid_position: ',JHNKAR', expand: true, width: null}
     data_bindings: []
   - type: Link
     properties: {role: hiddenlink, url: '', align: right, tooltip: '', border: '',
