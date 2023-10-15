@@ -68,15 +68,21 @@ body {
 }
 
 a {
-  color: %color:Primary%;
+  margin: 0;
+  padding: 0;
+  color: %color:Background%;
 }
 
 a:hover:not(disabled) {
-  color: %color:Primary Container%;
+  margin: 0;
+  padding: 0;
+  color: %color:Background%;
 }
 
 a:active:not(disabled), a:focus:not(disabled){
-  opacity: %color:Primary Container%;
+  margin: 0;
+  padding: 0;
+  opacity: %color:Bakcground%;
 }
 
 
