@@ -4,7 +4,7 @@ container:
 components:
 - type: Label
   properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:On
-      Secondary Container', visible: true, text: Bug Busters, font_size: 24, font: '''Peralta''',
+      Secondary Container', visible: true, text: Bug Busters, font_size: 48, font: '''Peralta''',
     spacing_above: small, icon_align: left, spacing_below: none, italic: false, background: 'theme:Secondary
       Container', bold: true, underline: false, icon: ''}
   name: label_1
@@ -22,7 +22,7 @@ components:
     layout_properties: {grid_position: 'JBBGCE,MRPWQV', width: 964.9167}
 - type: Label
   properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:On
-      Secondary Container', visible: true, text: Unix Unicorn, font_size: 24, font: '''Abril
+      Secondary Container', visible: true, text: Unix Unicorn, font_size: 48, font: '''Abril
       Fatface''', spacing_above: large, icon_align: left, spacing_below: small, italic: false,
     background: 'theme:Secondary Container', bold: true, underline: false, icon: ''}
   name: label_2
@@ -34,7 +34,7 @@ components:
   layout_properties: {grid_position: 'FILIHW,EFJKRV ATAVIZ,XYPQDO'}
 - type: Label
   properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:On
-      Secondary Container', visible: true, text: Segmentation Slayers, font_size: 24,
+      Secondary Container', visible: true, text: Segmentation Slayers, font_size: 48,
     font: '''Abril Fatface''', spacing_above: none, icon_align: left, spacing_below: small,
     italic: false, background: 'theme:Secondary Container', bold: true, underline: false,
     icon: ''}
@@ -47,7 +47,7 @@ components:
   layout_properties: {grid_position: 'FILIHW,EFNDAT FXHETS,THYKEQ'}
 - type: Label
   properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:On
-      Secondary Container', visible: true, text: Kernel Kamikaze, font_size: 24, font: '''Abril
+      Secondary Container', visible: true, text: Kernel Kamikaze, font_size: 48, font: '''Abril
       Fatface''', spacing_above: medium, icon_align: left, spacing_below: medium,
     italic: false, background: 'theme:Secondary Container', bold: true, underline: false,
     icon: ''}
