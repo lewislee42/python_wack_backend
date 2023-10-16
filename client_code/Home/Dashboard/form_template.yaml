@@ -71,7 +71,7 @@ components:
   layout_properties: {grid_position: 'FILIHW,EFJKRV ATAVIZ,XYPQDO'}
 - type: Label
   properties: {role: null, align: right, tooltip: '', border: '', foreground: 'theme:On
-      Secondary Container', visible: true, text: Segmentation Slayers, font_size: 41,
+      Secondary Container', visible: true, text: Segmentation Slayers, font_size: 37,
     font: '''Abril Fatface''', spacing_above: none, icon_align: left, spacing_below: small,
     italic: false, background: 'theme:Secondary Container', bold: true, underline: false,
     icon: ''}

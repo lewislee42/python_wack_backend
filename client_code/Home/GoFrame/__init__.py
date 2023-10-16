@@ -53,6 +53,9 @@ class GoFrame(GoFrameTemplate):
     self.image_1.display_mode = 'original_size'
     if arr is None:
       arr = anvil.server.call("getStudentByLogin", "thilvija")
+      Notification("How bad are you at guessing that you can't even type a valid intra ID?",
+                   title="Feeding you to THILA!!!",
+                   style="info", timeout=None).show()
     student_image = arr['image']['versions']['small']
     if student_image is None:
       student_image = URLMedia('_/theme/whacky-too.png')

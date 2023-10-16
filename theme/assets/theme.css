@@ -763,13 +763,13 @@ input[disabled] ~ span {
 .anvil-role-hiddenbtn, .anvil-role-hiddenbtn:visited, .anvil-role-hiddenbtn:active,
 .anvil-role-hiddenbtn:active:focus, .anvil-role-hiddenbtn:active:focus-visible, .anvil-role-hiddenbtn:active:focus-within
 .anvil-role-hiddenbtn:focus, .anvil-role-hiddenbtn:focus-visible, .anvil-role-hiddenbtn:focus-within {
-  background-color: %color:Secondary Container%;
+  background-color: transparent;
   color: %color:Secondary Container%;
   text-transform: uppercase;
 }
 
 .anvil-role-hiddenbtn:hover {
-  background-color: %color:Secondary Container%;
+  background-color: transparent;
   color: #FFED5F;
 }
 

@@ -18,6 +18,7 @@ unique_ids:
   server_modules:
     ServerModule1: '1685452365618467403552812.8588'
   assets:
+    mysplash.png: '1697446252503317592281462.5478'
     standard-page.html: MD5G2GHFAVWRJ5VSBZKNN45Q6NRNQBBD
     theme.css: YHRPJKIIYKWDQZUBLCIQ7MIUZQUXJWBB
     whacky-too-logo.png: '1697166661049574005817021.2052'
