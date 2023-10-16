@@ -64,6 +64,7 @@ class GoFrame(GoFrameTemplate):
     self.label_3.text = 'Pool: ' + pmon + ", " + pyer
     self.user_proj = arr['projects_users']
     pnames = [x['project']['name'] for x in self.user_proj]
+    self.drop_down_1.include_placeholder = True
     self.drop_down_1.items = pnames
     self.drop_down_1.visible = True
 
