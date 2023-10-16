@@ -6,7 +6,10 @@ import anvil.users
 #This is your startup form. It has a sidebar with navigation links and a content panel where page content will be added.
 class GoFrame(GoFrameTemplate):
   def __init__(self, **properties):
-    pass
+    Notification("You found this page. Now, wonder what it does.",
+                title="CONGRATULATIONS!!!",
+                style="danger",
+                timeout=None).show()
     # Set Form properties and Data Bindings.
     #self.init_components(**properties)
     #Present users with a login form with just one line of code:
