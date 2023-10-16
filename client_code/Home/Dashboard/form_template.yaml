@@ -65,12 +65,28 @@ components:
   layout_properties: {grid_position: 'FILIHW,TAUVGV UDSFNE,LOSQYN'}
 - type: Button
   properties: {role: null, align: left, tooltip: '', border: '', enabled: true, foreground: '',
+    visible: true, text: BUG BUSTER, font_size: null, font: '', spacing_above: small,
+    icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+    underline: false, icon: ''}
+  name: button_3
+  layout_properties: {grid_position: 'ISXAJL,LZIOEE'}
+  event_bindings: {click: button_3_click}
+- type: Button
+  properties: {role: null, align: right, tooltip: '', border: '', enabled: true, foreground: '',
     visible: true, text: KerneL KAMIKAZE, font_size: null, font: '', spacing_above: small,
     icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
     underline: false, icon: ''}
   name: button_1
-  layout_properties: {grid_position: 'ISXAJL,JYAFKD'}
+  layout_properties: {grid_position: 'ISXAJL,UWSQXA'}
   event_bindings: {click: button_1_click}
+- type: Button
+  properties: {role: null, align: left, tooltip: '', border: '', enabled: true, foreground: '',
+    visible: true, text: SEGMENTATION SLAYER, font_size: null, font: '', spacing_above: small,
+    icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+    underline: false, icon: ''}
+  name: button_4
+  layout_properties: {grid_position: 'ISXAJL,SXCTOM'}
+  event_bindings: {click: button_4_click}
 - type: Button
   properties: {role: null, align: right, tooltip: '', border: '', enabled: true, foreground: '',
     visible: true, text: UNIX UNICORN, font_size: null, font: '', spacing_above: small,
@@ -79,20 +95,4 @@ components:
   name: button_2
   layout_properties: {grid_position: 'ISXAJL,GKYREW'}
   event_bindings: {click: button_2_click}
-- type: Button
-  properties: {role: null, align: left, tooltip: '', border: '', enabled: true, foreground: '',
-    visible: true, text: BUG BUSTER, font_size: null, font: '', spacing_above: small,
-    icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
-    underline: false, icon: ''}
-  name: button_3
-  layout_properties: {grid_position: 'ISXAJL,HIZMWK'}
-  event_bindings: {click: button_3_click}
-- type: Button
-  properties: {role: null, align: right, tooltip: '', border: '', enabled: true, foreground: '',
-    visible: true, text: SEGMENTATION SLAYER, font_size: null, font: '', spacing_above: small,
-    icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
-    underline: false, icon: ''}
-  name: button_4
-  layout_properties: {grid_position: 'ISXAJL,JOJJPH'}
-  event_bindings: {click: button_4_click}
 is_package: true
