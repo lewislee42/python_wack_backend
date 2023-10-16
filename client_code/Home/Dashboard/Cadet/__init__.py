@@ -26,3 +26,13 @@ class Cadet(CadetTemplate):
     """This method is called when the link is clicked"""
     pass
 
+  def image_1_mouse_enter(self, x, y, **event_args):
+    """This method is called when the mouse cursor enters this component"""
+    pass
+
+  def image_1_mouse_leave(self, x, y, **event_args):
+    """This method is called when the mouse cursor leaves this component"""
+    pass
+
+
+
