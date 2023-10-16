@@ -751,23 +751,41 @@ input[disabled] ~ span {
   white-space: nowrap;
 }
 
-.anvil-role-hiddenlink, .anvil-role-hiddenlink:link, .anvil-role-hiddenlink:visited, .anvil-role-hiddenlink:hover, .anvil-role-hiddenlink:active {
+.anvil-role-hiddenlink, .anvil-role-hiddenlink:link,
+.anvil-role-hiddenlink:active, .anvil-role-hiddenlink:visited, .anvil-role-hiddenlink:hover
+.anvil-role-hiddenlink:focus, .anvil-role-hiddenlink:focus-visible, .anvil-role-hiddenlink:focus-within,
+.anvil-role-hiddenlink:active:focus, .anvil-role-hiddenlink:active:focus-visible, .anvil-role-hiddenlink:active:focus-within,
+.anvil-role-hiddenlink.active:focus, .anvil-role-hiddenlink.active:focus-visible, .anvil-role-hiddenlink.active:focus-within {
+  background-color: %color:Background%;
   color: %color:Background%;
 }
 
-.anvil-role-hiddenbtn, .anvil-role-hiddenbtn:visited, .anvil-role-hiddenbtn:focus, .anvil-role-hiddenbtn:focus-visible, .anvil-role-hiddenbtn:focus-within {
+.anvil-role-hiddenbtn, .anvil-role-hiddenbtn:visited, .anvil-role-hiddenbtn:active,
+.anvil-role-hiddenbtn:active:focus, .anvil-role-hiddenbtn:active:focus-visible, .anvil-role-hiddenbtn:active:focus-within
+.anvil-role-hiddenbtn:focus, .anvil-role-hiddenbtn:focus-visible, .anvil-role-hiddenbtn:focus-within {
   background-color: %color:Secondary Container%;
   color: %color:Secondary Container%;
-  font-family: 'Comic Sans MS';
   text-transform: uppercase;
 }
 
 .anvil-role-hiddenbtn:hover {
   background-color: %color:Secondary Container%;
-  color: #66C7D0;
+  color: #FFED5F;
 }
 
-.anvil-role-hiddenbtn:active, .anvil-role-hiddenbtn:active:focus, .anvil-role-hiddenbtn:active:focus-visible, .anvil-role-hiddenbtn:active:focus-within {
-  background-color: %color:Secondary Container%;
-  color: %color:Secondary Container%;
+.anvil-role-coal_toggle, .anvil-role-coal_toggle:link, 
+.anvil-role-coal_toggle:visited, .anvil-role-coal_toggle:active {
+  margin: 0;
+  padding: 0;
+  background-color: %color:Background%;
+  color: #EA7657;
+  font-family: 'Roboto Condensed';
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.anvil-role-coal_toggle:hover {
+  margin: 0;
+  padding: 0;
+  color: #E67253;
 }

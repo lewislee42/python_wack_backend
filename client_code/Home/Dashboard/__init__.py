@@ -25,18 +25,19 @@ class Dashboard(DashboardTemplate):
 
     # Any code you write here will run before the form opens.
 
-  def button_1_click(self, **event_args):
-    """This method is called when the button is clicked"""
-    self.repeating_panel_4.visible = False if self.repeating_panel_4.visible else True
-
-  def button_2_click(self, **event_args):
-    """This method is called when the button is clicked"""
-    self.repeating_panel_2.visible = False if self.repeating_panel_2.visible else True
-
-  def button_3_click(self, **event_args):
-    """This method is called when the button is clicked"""
+  def link_1_click(self, **event_args):
+    """This method is called when the link is clicked"""
     self.repeating_panel_1.visible = False if self.repeating_panel_1.visible else True
 
-  def button_4_click(self, **event_args):
-    """This method is called when the button is clicked"""
+  def link_2_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    self.repeating_panel_4.visible = False if self.repeating_panel_4.visible else True
+
+  def link_3_click(self, **event_args):
+    """This method is called when the link is clicked"""
     self.repeating_panel_3.visible = False if self.repeating_panel_3.visible else True
+
+  def link_4_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    self.repeating_panel_2.visible = False if self.repeating_panel_2.visible else True
+

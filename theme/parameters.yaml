@@ -25,6 +25,7 @@ roles:
 - {name: hiddenlink}
 - {name: flexname}
 - {name: hiddenbtn}
+- {name: coal_toggle}
 color_scheme:
   preset_groups:
   - name: Colour Scheme

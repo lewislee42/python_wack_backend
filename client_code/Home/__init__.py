@@ -11,12 +11,11 @@ class Home(HomeTemplate):
     self.init_components(**properties)
     self.column_panel_1.add_component(Dashboard())
     self.view = True
-    self.button_go.foreground = '#FFE95B'
 
     # Any code you write here will run before the form opens.
 
-  def button_go_click(self, **event_args):
-    """This method is called when the button is clicked"""
+  def link_go_click(self, **event_args):
+    """This method is called when the link is clicked"""
     self.column_panel_1.clear()
     if self.view:
       self.column_panel_1.add_component(GoFrame())
@@ -24,5 +23,4 @@ class Home(HomeTemplate):
     else:
       self.column_panel_1.add_component(Dashboard())
       self.view = True
-    self.button_go.foreground = '#FFE95B'
-    self.button_go.background = '#FFE95B'
+
