@@ -10,7 +10,15 @@ components:
     spacing_above: small, icon_align: left, spacing_below: none, italic: false, background: 'theme:Secondary
       Container', bold: true, underline: false, icon: ''}
   name: label_1
-  layout_properties: {grid_position: 'FILIHW,DESGLB PCYFIY,YZLBPF'}
+  layout_properties: {grid_position: 'FILIHW,DESGLB UEFEKT,DGPEMC'}
+- type: Label
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:On
+      Secondary Container', visible: true, text: "\u2197\ufe0f Now, these are real\
+      \ \ud83d\udc1b\ud83d\udc1e", font_size: 16, font: '''Tilt Neon''', spacing_above: none,
+    icon_align: left, spacing_below: large, italic: false, background: '', bold: false,
+    underline: false, icon: ''}
+  name: label_5
+  layout_properties: {grid_position: 'FILIHW,DESGLB RTSAPW,YQKGDP'}
 - type: FlowPanel
   properties: {}
   name: flow_panel_1
@@ -24,11 +32,19 @@ components:
     layout_properties: {grid_position: 'JBBGCE,MRPWQV', width: 964.9167}
 - type: Label
   properties: {role: null, align: right, tooltip: '', border: '', foreground: 'theme:On
-      Secondary Container', visible: true, text: Unix Unicorn, font_size: 41, font: '''Abril
+      Secondary Container', visible: true, text: Unix Unicorns, font_size: 41, font: '''Abril
       Fatface''', spacing_above: large, icon_align: left, spacing_below: small, italic: false,
     background: 'theme:Secondary Container', bold: true, underline: false, icon: ''}
   name: label_2
-  layout_properties: {grid_position: 'FILIHW,EFJKRV FBYDHA,QBERMA'}
+  layout_properties: {grid_position: 'FILIHW,EFJKRV WLBZEE,YJDQQH'}
+- type: Label
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:On
+      Secondary Container', visible: true, text: "\ud83e\udd84\ud83e\udd84 dont exist\
+      \ \u2196\ufe0f", font_size: 18, font: '''Tilt Neon''', spacing_above: none,
+    icon_align: left, spacing_below: none, italic: false, background: '', bold: false,
+    underline: false, icon: ''}
+  name: label_6
+  layout_properties: {grid_position: 'FILIHW,EFJKRV PZOWAU,XPNHLS'}
 - type: RepeatingPanel
   properties: {role: null, tooltip: '', border: '', foreground: '', items: null, visible: true,
     spacing_above: small, spacing_below: small, item_template: Home.Dashboard.Cadet,
@@ -36,8 +52,15 @@ components:
   name: repeating_panel_2
   layout_properties: {grid_position: 'FILIHW,EFJKRV ATAVIZ,XYPQDO'}
 - type: Label
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:On
+      Secondary Container', visible: true, text: ⚠️⚠️ not freed ↙️, font_size: 20,
+    font: '''Tilt Neon''', spacing_above: none, icon_align: left, spacing_below: none,
+    italic: false, background: '', bold: false, underline: false, icon: ''}
+  name: label_7
+  layout_properties: {grid_position: 'FILIHW,EFNDAT AXXJHW,APOZRR'}
+- type: Label
   properties: {role: null, align: right, tooltip: '', border: '', foreground: 'theme:On
-      Secondary Container', visible: true, text: Segmentation Slayers, font_size: 41,
+      Secondary Container', visible: true, text: Segmentation Slayers, font_size: 31,
     font: '''Abril Fatface''', spacing_above: none, icon_align: left, spacing_below: small,
     italic: false, background: 'theme:Secondary Container', bold: true, underline: false,
     icon: ''}
@@ -50,9 +73,17 @@ components:
   name: repeating_panel_3
   layout_properties: {grid_position: 'FILIHW,EFNDAT FXHETS,THYKEQ'}
 - type: Label
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:On
+      Secondary Container', visible: true, text: "\u2198\ufe0f would gladly attack\
+      \ \ud83c\udf3d\ud83c\udf3d", font_size: 16, font: '''Tilt Neon''', spacing_above: medium,
+    icon_align: left, spacing_below: none, italic: false, background: '', bold: false,
+    underline: false, icon: ''}
+  name: label_8
+  layout_properties: {grid_position: 'FILIHW,TAUVGV GMOGBM,SAKMPC'}
+- type: Label
   properties: {role: null, align: right, tooltip: '', border: '', foreground: 'theme:On
-      Secondary Container', visible: true, text: Kernel Kamikaze, font_size: 41, font: '''Abril
-      Fatface''', spacing_above: medium, icon_align: left, spacing_below: medium,
+      Secondary Container', visible: true, text: Kernel Kamikazes, font_size: 41,
+    font: '''Abril Fatface''', spacing_above: none, icon_align: left, spacing_below: medium,
     italic: false, background: 'theme:Secondary Container', bold: true, underline: false,
     icon: ''}
   name: label_4
@@ -65,7 +96,7 @@ components:
   layout_properties: {grid_position: 'FILIHW,TAUVGV UDSFNE,LOSQYN'}
 - type: Button
   properties: {role: null, align: left, tooltip: '', border: '', enabled: true, foreground: '',
-    visible: true, text: BUG BUSTER, font_size: null, font: '', spacing_above: small,
+    visible: true, text: BUG BUSTERS, font_size: null, font: '', spacing_above: small,
     icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
     underline: false, icon: ''}
   name: button_3
@@ -73,7 +104,7 @@ components:
   event_bindings: {click: button_3_click}
 - type: Button
   properties: {role: null, align: right, tooltip: '', border: '', enabled: true, foreground: '',
-    visible: true, text: KerneL KAMIKAZE, font_size: null, font: '', spacing_above: small,
+    visible: true, text: KerneL KAMIKAZES, font_size: null, font: '', spacing_above: small,
     icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
     underline: false, icon: ''}
   name: button_1
@@ -81,7 +112,7 @@ components:
   event_bindings: {click: button_1_click}
 - type: Button
   properties: {role: null, align: left, tooltip: '', border: '', enabled: true, foreground: '',
-    visible: true, text: SEGMENTATION SLAYER, font_size: null, font: '', spacing_above: small,
+    visible: true, text: SEGMENTATION SLAYERS, font_size: null, font: '', spacing_above: small,
     icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
     underline: false, icon: ''}
   name: button_4
@@ -89,7 +120,7 @@ components:
   event_bindings: {click: button_4_click}
 - type: Button
   properties: {role: null, align: right, tooltip: '', border: '', enabled: true, foreground: '',
-    visible: true, text: UNIX UNICORN, font_size: null, font: '', spacing_above: small,
+    visible: true, text: UNIX UNICORNS, font_size: null, font: '', spacing_above: small,
     icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
     underline: false, icon: ''}
   name: button_2

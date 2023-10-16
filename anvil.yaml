@@ -23,7 +23,7 @@ native_deps: {head_html: '<link href="https://fonts.googleapis.com/css2?family=E
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Peralta&family=Satisfy&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Peralta&family=Satisfy&family=Pacifico&family=Tilt+Neon&display=swap"
     rel="stylesheet">'}
 db_schema:
   users:
